@@ -98,8 +98,8 @@ def main():
         ren.c_rent(usrname, phoneno, bike_l, bike_n, number)
     if choice == "3":
         bike_n = input("Enter Name of Bike to return: ")
-        number = int(input("Enter Number of bikes to return"))
-        hours_used = int(input("Enter Number of hours used"))
+        number = int(input("Enter Number of bikes to return: "))
+        hours_used = int(input("Enter Number of hours used: "))
         retu = Customer()
         retu.c_return(bike_l, bike_n, number, hours_used)
 
