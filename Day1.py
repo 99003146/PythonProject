@@ -33,7 +33,7 @@ def ret_bike(bike_name, num, hours):
             bikes[bike_name] = value
     print("**********************************")
     print("You have returned  ", bike_name)
-    print("Number of bikes returned  %d", num)
+    print("Number of bikes returned ", num)
     print("Total amount payable is Rs :", cost)
     print("***********************************")
 
